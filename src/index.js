@@ -9,10 +9,11 @@ import StateBasic from './StateBasic';
 import ForList from './ForList';
 import books from './book';
 import ForNest from './ForNest';
+import ForFilter from './ForFilter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ForNest src={books} />
+  <ForFilter src={books} />
 );
 
 // If you want to start measuring performance in your app, pass a function
